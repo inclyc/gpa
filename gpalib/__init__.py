@@ -12,7 +12,7 @@ def convert_to_4(raw_points, score_type, arith=None):
         for rank_data in arith_data:
             rank, point = rank_data['rank'], rank_data['point']
             if score_type == 'hundred':
-                if rank[0] <= raw_point <= rank[1]:
+                if rank[0] <= raw_point < rank[1] + 1:
                     target_point = point
                     found = True
                     break

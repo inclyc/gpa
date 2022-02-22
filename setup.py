@@ -9,7 +9,7 @@ long_description = (here / 'README.md').read_text(encoding='utf-8')
 
 setup(
     name='gpalib',
-    version='0.1.2',
+    version='0.1.3',
     description='A library to convert scores using many arithmetics',
     long_description=long_description,
     long_description_content_type='text/markdown',
@@ -32,7 +32,7 @@ setup(
         'Programming Language :: Python :: 3 :: Only',
         'Topic :: Utilities',
     ],
-    keywords='Harbin Institute of Technology, HIT, requests',
+    keywords='GPA',
     package_dir={'': '.'},
     packages=find_packages(where='.'),
     python_requires='>=3.5, <4',

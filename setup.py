@@ -9,7 +9,7 @@ long_description = (here / 'README.md').read_text(encoding='utf-8')
 
 setup(
     name='gpalib',
-    version='0.1.3',
+    version='0.1.4',
     description='A library to convert scores using many arithmetics',
     long_description=long_description,
     long_description_content_type='text/markdown',

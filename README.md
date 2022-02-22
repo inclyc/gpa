@@ -4,6 +4,12 @@ A library used to calculate your GPA. Now the GPA algorithm varies slightly from
 
 一个用来计算你GPA的库。现在各个学校的GPA算法略有不同，在申请学校时逐个计算你的GPA分数是很复杂且耗费时间的过程。这个库用来实现一些常见的GPA计算方法，方便你计算你的GPA。
 
+# How to install
+
+```bash
+pip install gpalib
+```
+
 # How to use
 
 ```python
